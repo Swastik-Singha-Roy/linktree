@@ -11,7 +11,8 @@ html, body {
 }
 body {
     background: linear-gradient(135deg, #5b34b6, #4fc3f7);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     color: white;
     display: flex;
     flex-direction: column;
