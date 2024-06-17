@@ -6,13 +6,14 @@
     box-sizing: border-box;
 }
 html, body {
+    background: linear-gradient(135deg, #5b34b6, #4fc3f7);
+    background-size: cover; 
+    background-attachment: fixed; 
     height: 100%;
     margin: 0;
 }
+
 body {
-    background: linear-gradient(135deg, #5b34b6, #4fc3f7);
-    background-size: contain;
-    background-repeat: no-repeat;
     color: white;
     display: flex;
     flex-direction: column;
